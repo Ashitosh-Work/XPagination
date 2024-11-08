@@ -43,7 +43,7 @@ export default function TableComponent() {
                 setData(data);
             }
             catch {
-                alert("Error fetching data");
+                alert("failed to fetch data");
             }
         }
         call();
